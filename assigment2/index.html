@@ -1,0 +1,138 @@
+<html>
+
+<head></head>
+
+<body>
+    <form>
+
+    <fieldset style="background-color: brown; ">
+        <legend style="background-color:rgb(103, 103, 232);">Personal Data</legend>
+
+       
+
+            <br>
+            <br>
+
+          <!--  <fieldset style="background-color: rgb(238, 159, 12)">-->
+            <fieldset style="background-color: rgb(238, 159, 12) ">
+               
+                <legend style="background-color:rgb(103, 103, 232);" width="300">
+                    <br>
+                    <br>
+                    your name
+                    <br>
+                    <br>
+                    <br>
+                </legend>
+                
+                <br>
+                <br>
+
+                <table>
+
+                    <tr>
+                        <td><label for="fname">first name</label></td>
+                        <td>:</td>
+                        <td><input id="fname" placeholder="ex ahmed" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sname">second name</label></td>
+                        <td>:</td>
+                        <td><input id="sname" placeholder="ex hesham" required /></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <br>
+            <br>
+            <table>
+
+                <tr>
+
+                    <td><label for="phone">your phone</label></td>
+                    <td>:</td>
+                    <td><input id="phone" type="tel" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input id="email" type="email" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td>:</td>
+                    <td><input id="password" type="password" required /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Rpassword">re-password</label></td>
+                    <td>:</td>
+                    <td><input id="Rpassword" type="password" required /></td>
+                </tr>
+
+
+
+            </table>
+
+
+            <br>
+            <br>
+            <input name="gender" id="male" type="radio" value="male"  required/>
+            <label for="male">Male</label>
+            <br>
+            <input id="female" name="gender" type="radio" value="female" required />
+            <label for="female">Female</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="student" name="status" value="student" checked/>
+            <label for="student">student</label>
+            <br>
+            <input type="checkbox" id="graduate" name="status" value="graduate" />
+            <label for="graduate"> graduate</label>
+            <br>
+            <br>
+
+            <select>
+                <option selected hidden> select your uni</option>
+                <optgroup label="universty"></optgroup>
+                <option>AUC</option>
+                <option>GUC</option>
+                <option>MTI</option>
+
+                <optgroup label="faculty"></optgroup>
+                <option>CS</option>
+                <option>medicine</option>
+                <option>finance</option>
+
+                <optgroup label="department" disabled></optgroup>
+                <option disabled>option3.1</option>
+                <option disabled>option3.2</option>
+
+            </select>
+            <br>
+            <br>
+            <input type="image" id="image" alt="submitButton" src="./img/R.png" width="80" />
+
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+    </fieldset>
+
+</body>
+
+</html>

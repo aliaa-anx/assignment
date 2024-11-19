@@ -1,0 +1,397 @@
+.header{
+    background-image: url("./images/hero-bg.jpg");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+   
+   z-index:2;
+   
+}
+.header::before{
+    position: absolute;
+    content:'';
+    position: absolute;
+     top:0;
+    left:0; 
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index:-1;
+}
+
+
+.navbar-toggler .navbar-toggler-icon{
+    color:white;
+   
+}
+.toggleicon{
+    color:white;
+}
+.logo{
+    margin:20px;
+}
+.navbar-nav {
+    margin: 20px;
+ 
+}
+.nav-link{
+    position: relative;
+}
+.nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height:3px;
+    width:0;
+    left:0;
+    top:100%;
+    transition: 0.2s ease;
+    
+}
+.nav-item .nav-link:hover::after{
+    width:100%;
+    background-color: white;
+} 
+ ul{
+    list-style: none;
+    
+}
+ .wrapper .dynamic-txt{
+    line-height: 90px;
+    height:90px;
+    overflow: hidden;
+}
+.wrapper .dynamic-txt li {
+    position: relative;
+    color: white;
+    top: 0;
+    width: fit-content;
+    animation: slide 12s steps(4) infinite;
+    -webkit-animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.wrapper {
+    font-family: monospace;
+    text-align: center;
+  }
+
+  
+
+
+ .wrapper .dynamic-txt li::after{
+    content:"";
+    position: absolute;
+    height:90px;
+    width:fit-content;
+    left:0;
+    background-color: white;
+    border-left:2px solid white;
+    animation:typing 12s steps(12) infinite;
+    -webkit-animation:typing 6s steps(2) infinite;
+} 
+ @keyframes typing{
+    50%{
+        left:100%;
+    }
+    100%{
+        left:0;
+    }
+} 
+ 
+ .section1{
+    background-color: #F5F5F5;
+
+ }
+ .section1 .aboutme .title::after{
+    content:'';
+    position:absolute;
+    border-color: blue;
+    top:100%;
+    left:0;
+    width:80%;
+    height:1px;
+    border:3px solid blue;
+
+ }
+
+ .section2{
+background-color: #F5F5F5;
+ }
+ .section2 .servicetitle p::after{
+    content:'';
+    position:absolute;
+    background-color: blue;
+    border:3px solid blue;
+    height:10x;
+    width:10%;
+    top:103%;
+
+   left:45%;
+
+ }
+ .section2 .service-icon{
+   width:100px;
+   height:100px;
+   border:15px rgb(0, 120, 255) solid;
+   border-radius: 50%;
+   transition:0.5s ease-in-out;
+   -webkit-transition:0.5s ease-in-out;
+   -moz-transition:0.5s ease-in-out;
+   -ms-transition:0.5s ease-in-out;
+   -o-transition:0.5s ease-in-out;
+   padding:50px;
+}
+ 
+ .service-icon:hover{
+    background-color: rgb(0, 120, 255);
+    color:white;
+    border:20px solid;
+    border-color:#CDE1F8;
+
+ }
+.section3{
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+}
+ .parallax {
+     height: 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+    
+ }
+.bg-1 {
+
+    background-image:
+        url('./images/counters-bg.jpg');
+
+}
+.bg-2{
+    background-image:
+    url('./images/overlay-bg.jpg');
+}
+ .parallax::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(59, 143, 238, 0.5);
+     z-index: 1;
+ }
+
+
+ .parallax:hover {
+     animation: move-bg-1 5s linear infinite;
+     -webkit-animation: move-bg-1 5s linear infinite;
+}
+
+ @keyframes move-bg-1 {
+     from {
+         background-position: 0% 50%;
+     }
+
+     to {
+         background-position: 100% 50%;
+     }
+ }
+
+ .counter {
+     color: white;
+    
+ }
+ .wrap{
+        position: absolute;
+        z-index: 2;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+}
+
+ .section3 .icon {
+     border: 15px solid #CDE1F8;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+ }
+ /**--------------------------------section4-------------------------**/
+ .section4 .porttitle p::after{
+    content: '';
+        position: absolute;
+        background-color: blue;
+        border: 3px solid blue;
+        height: 10x;
+        width: 5%;
+        top: 103%;
+        left: 47%;
+
+ }
+
+ .section4{
+    background-color: #F5F5F5;
+ }
+ .section4 .icone{
+    width:30px;
+    height:30px;
+    border:2px solid #0D6EFD;
+    border-radius: 50%;
+    padding:10px;
+   
+}
+
+.section4 .inner  .imgwrapper{
+    transition: transform 0.4s ease-in;
+    overflow: hidden;
+    -webkit-transition: transform 0.4s ease-in;
+    -moz-transition: transform 0.4s ease-in;
+    -ms-transition: transform 0.4s ease-in;
+    -o-transition: transform 0.4s ease-in;
+}
+
+.section4 .inner .imgwrapper img:hover {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+/**-----------------------------section5---------------------------------------------**/
+.section5 {
+    background-image: url('./images/overlay-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height:500px;
+   
+}
+.carousel-item .img-1 {
+    width:200px;
+    height:200px;
+    margin:Auto;
+    border-radius: 50%;
+   
+}
+.carousel-item .img-2  {
+    width: 100px;
+    height: 150px;
+    margin: Auto;
+    border-radius: 50%;
+
+}
+.carousel-indicators [data-bs-target] {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    
+}
+
+
+.section6 .blogtitle::after{
+    position: absolute;
+    content:'';
+    background-color: blue;
+        border: 3px solid blue;
+        height: 3x;
+        width: 5%;
+        top: 100%;
+    
+        left: 48%;
+}
+.section6 .profilewrapper
+{
+    width:40px;
+    height:40px;
+}
+.section6 .content a{
+    --bs-link-rgb:black;
+    color:var(--bs-link-rgb);
+    text-decoration: none;
+}
+
+.section6 .content a:hover{
+
+--bs-link-hover-color: #0a58ca !important;
+color:var(--bs-link-hover-color)
+
+}
+.section6 .card-1::after{
+    content:'travel';
+    position: absolute;
+    background-color: #0D6EFD;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8%;
+    padding:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    color:white;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+}
+.section6 .card-3::after ,
+.section6 .card-2::after {
+    content: 'Web Design';
+    position: absolute;
+    background-color: #0D6EFD;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+   
+}
+.section7
+{
+    background-image: url('./images/overlay-bg.jpg');
+    height:100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section7 .title::after{
+    position: absolute;
+    content:'';
+    background-color: #0D6EFD;
+    height:3px;
+    width:10%;
+    top:101%;
+
+}
+.sociallist li{
+    border:2px solid #0D6EFD;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height:40px;
+    width:40px;
+  
+}
+.footer{
+    background-color: #0062D3;
+}

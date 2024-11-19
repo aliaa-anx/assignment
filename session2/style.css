@@ -1,0 +1,12 @@
+.parent{
+    text-align: center;
+    background-color: antiquewhite;
+    display:inline-block;
+    width:33%;
+}
+img{
+    width:100%;
+}
+.clear-fix{
+    clear:both;
+}

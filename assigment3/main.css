@@ -1,0 +1,368 @@
+body{
+
+    margin: 0;
+    padding:0;
+   
+    
+}
+/**header start**/
+.header{
+    background-image: url("./Bakeryimages/images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+.navbar{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+   /** margin-top:20px;**/
+  position: sticky;
+ top:0;
+  background-color: white;
+}
+
+.logo{
+    float:left;
+    margin-top:15px;
+    margin-left:60px;
+   
+}
+.logo img{
+    width: 200px;
+    padding:5px;
+}
+
+.nav-content{
+    
+    /* float:right; */
+    display:inline-block; 
+   margin-top:30px;
+   margin-left: 100px;
+   padding-left:400px;
+   font-size: 20px;
+   
+
+}
+.nav-content a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+   
+}
+.clear-fix{
+    clear:both;
+}
+.header-content a{
+    text-decoration: none;
+    color: white;
+    padding:10px
+}
+.header-content{
+    color:white;
+    text-align: center;
+    margin-top: 200px;
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    
+}
+.header-content text p{
+    font-family: "Alegreya Sans";
+    font-size: 40px;
+    
+   
+}
+.header-content h1{
+   
+    font-size:50px ;
+    font-family:"Alegreya";
+}
+.header .header-content .buttons{
+ margin:70px;
+
+}
+
+.header-content .buttons a{
+  
+   border:white solid;
+   border-radius:5px;
+   padding:20px;
+   display: inline-block;
+}
+.header-content .buttons #b1{
+    background-color: #8e7754;
+    border:#8e7754 ;
+    
+}
+
+/**header end**/
+
+/**---------------section-1------------------------**/
+.section-1 .about-img{
+    display: inline-block;
+  
+    width:45%;
+
+}
+.section-1 .about-img img{
+    width:500px;
+    height: 500px;
+     margin-left:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+   
+}
+.section-1 .all-about{
+
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    margin-top: 100px;
+    
+}
+
+.section-1 .about{
+
+
+ 
+font-family: Georgia, 'Times New Roman', Times, serif;
+ padding-bottom:20px;
+ 
+
+ 
+}
+.section-1 p{
+    
+    color: grey;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.section-1 .icons ul{
+   
+    list-style:none;
+    padding-left: 0;
+    font-size: 18px;
+ 
+    
+
+}
+
+.section-1 .icons img{
+    width:30px;
+    height: 30px;
+    margin:0;
+
+}
+/**--------------------section-2-----------------------**/
+.section2{
+    background-color: #f8f8f8;
+   
+   
+}
+.section2 .container{
+    width:90%;
+    margin: auto;
+
+}
+.section2 .container .location-text{
+    display:inline-block;
+    width:45%;
+    vertical-align: top;
+    padding-right: 30px; 
+    margin-top:100px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+   
+}
+.section2 .location-text h3{
+    font-size:32px;
+    
+
+}
+.section2 .location-text p{
+    font-size: 17px;
+    color: grey;
+    padding:5px;
+   
+}
+
+.section2 .image-wrapper{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+  
+}
+.section2 .image-wrapper img{
+    width:600px;
+    padding:50px;
+    height: 450px;
+}
+/**-----------section3----------------**/
+.section3 .container{
+    width:90%;
+    margin:auto;
+}
+.section3 .products-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section3 .products-heading h3{
+   font-size: 30px;
+}
+.section3 .products-heading p{
+    color:#888888;
+    font-size: 17px;
+    padding:30px;
+}
+.section3 .products .card{
+    width:31%;
+    float:left;
+    text-align: center;
+    
+    padding:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section3 .products .card h3{
+    font-size: 22px;
+   
+}
+.section3 .products .card p{
+    font-size: 17px;
+    color:#888888;
+    padding:20px;
+}
+.section3 .products .card img{
+    width: 100%;
+ 
+}
+/**----------------------section4--------------**/
+ .section4{
+    background-color:#f8f8f8;
+ }
+ .section4 .container{
+    width:90%;
+    margin:auto;
+    padding:30px;
+ }
+ .section4 .contact-info{
+    padding:20px;
+    width:50%;
+   margin:0;
+   float: left;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .section4 .contact-info h2{
+   font-size: 32px;
+ }
+ .section4 .contact-info span{
+    color:#888888; 
+    font-size: 17px;
+ }
+ .section4 .contact-info p{
+    color:#888888; 
+    font-size: 17px;
+ }
+ 
+ .section4 .contact-info ul{
+    list-style: none;
+    float:left;
+    margin:0;
+   padding:0;
+
+ }
+ .section4 .contact-info ul li img{
+ width:40px;
+ height:40px;
+ margin:0;
+ background-color:#8E7754;
+ border-radius: 45px;
+ }
+ .contact-icons{
+   padding:0;
+  margin-top:30px;
+ 
+ }
+ .section4 .contact-info .contact-icons ul li{
+    padding:5px;
+   
+ }
+ .map{
+    float:left;
+    width:40%;
+  
+    margin-top: 10px;
+    
+   
+ }
+
+ /**----------section5----------------**/
+ 
+.section5{
+    background-color:#3a352c ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.section5 h3{
+    color:white;
+    padding-left:5px;
+}
+.section5 p{
+    color: #888888;
+}
+.section5 img{
+    width:30px;
+    height: 30px;;
+}
+.section5 ul{
+    list-style: none;
+    color:#888888;
+}
+
+.section5 .about-us{
+    width:25%;
+    float:left;
+  
+}
+.section5 .why{
+    width:25%;
+    float:left;
+   
+}
+.section5 .hours{
+   width:25%;
+   float:left;
+}
+.section5 .contactD{
+    width:25%;
+    float:left;
+    background-image: url("./Bakeryimages/images/contact-details-map.png");
+}
+.section5 .container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+.section5 a{
+    text-decoration: none;
+    color:#888888;
+}
+/**------------ footer---------------------**/
+.footer{
+    background-color: #403d38;
+    text-align: center;
+}
+.footer p{
+    color: #888888;
+}
+.footer .container{
+    padding:30px;
+}
+.footer  .social img{
+    width: 40px;
+    height: 40px;
+
+}

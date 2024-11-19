@@ -1,0 +1,14 @@
+.gallery{
+    background-color: teal;;
+}
+.gallery-item{
+    float:left;
+    width:25%
+}
+img{
+    width:100%;
+    display:block;
+}
+.clear-fix{
+    clear:both;
+}

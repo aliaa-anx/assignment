@@ -1,0 +1,10 @@
+
+.vip{
+    background-image: linear-gradient(to bottom right, red 50% ,blue 10%);
+    height:400px;
+    transform: translate(10px);
+    -webkit-transform: translate(10px);
+    -moz-transform: translate(10px);
+    -ms-transform: translate(10px);
+    -o-transform: translate(10px);
+}
